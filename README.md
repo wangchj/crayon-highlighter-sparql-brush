@@ -1,0 +1,1 @@
+This is project contains a set of files that descirbes coloring (also known as a brush) for SPARQL for the Crayon Syntax Highlighter plugin for Wordpress. These files should be placed in the <code>lang</code> folder of the plugin: <code>wordpress/wp-content/plugins/crayon-syntax-highlighter/langs/sparql</code>

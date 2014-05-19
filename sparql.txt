@@ -1,0 +1,27 @@
+### SPARQL LANGUAGE ###
+
+# ELEMENT_NAME        [optional-css-class] REGULAR_EXPRESSION
+# BUILD BY            Jeff (http://codenuggets.com)
+
+    NAME                SPARQL
+    VERSION             1.0.0
+
+    COMMENT             (\#.*?$)
+
+# SPARQL strings are enclosed in either single quotes or double quotes
+# TODO: language and data type tag http://www.w3.org/TR/2006/CR-rdf-sparql-query-20060406/#QSynLiterals
+    STRING              ((?<!\\)'.*?(?<!\\)'|(?<!\\)".*?(?<!\\)")|\<[^\>]+\>
+
+#    STATEMENT           \b(?alt:statement.txt)\b
+
+    RESERVED            \b(?alt:reserved.txt)\b
+
+#   TYPE                #\b(?alt:type.txt)\b
+
+#   SPARQL build-it functions
+#    BUILT_IN:ENTITY		#\b(?alt:built.in.func.txt)\b
+
+    IDENTIFIER          \b(\?|\$)\w+\b
+    #((?<!\\)".*?(?<!\\)")
+
+#    OPERATOR            \b(?alt:operator.txt)\b
