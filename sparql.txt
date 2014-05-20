@@ -21,7 +21,7 @@
 #   SPARQL build-it functions
 #    BUILT_IN:ENTITY		#\b(?alt:built.in.func.txt)\b
 
-    IDENTIFIER          \b(\?|\$)\w+\b
+    VARIABLE          (\?|\$)\w+\b
     #((?<!\\)".*?(?<!\\)")
 
 #    OPERATOR            \b(?alt:operator.txt)\b
